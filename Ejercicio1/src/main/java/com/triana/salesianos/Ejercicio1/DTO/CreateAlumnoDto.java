@@ -1,4 +1,4 @@
-package DTO;
+package com.triana.salesianos.Ejercicio1.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

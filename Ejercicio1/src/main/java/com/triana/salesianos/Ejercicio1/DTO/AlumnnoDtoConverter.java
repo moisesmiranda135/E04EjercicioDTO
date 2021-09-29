@@ -1,4 +1,4 @@
-package DTO;
+package com.triana.salesianos.Ejercicio1.DTO;
 
 
 import org.springframework.stereotype.Component;
