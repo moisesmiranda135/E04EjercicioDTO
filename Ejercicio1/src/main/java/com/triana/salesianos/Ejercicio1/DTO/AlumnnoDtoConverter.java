@@ -1,6 +1,7 @@
 package com.triana.salesianos.Ejercicio1.DTO;
 
 
+import com.triana.salesianos.Ejercicio1.model.Alumno;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -13,13 +14,8 @@ public class AlumnnoDtoConverter {
                 a.getNombre(),
                 a.getApellido1(),
                 a.getApellido2(),
-                a.getEmail(),
-                a.getCurso(),
-                a.getDireccion()
-
-
-
-
+                a.getTelefono(),
+                a.getEmail()
         );
 
 
@@ -32,7 +28,18 @@ public class AlumnnoDtoConverter {
 
         GetAlumnoDTO result = new GetAlumnoDTO();
         result.setNombre(al.getNombre());
-        
+        result.setApellidos(String.format("%s (%s)",al.getApellido1(),al.getApellido2()));
+        result.setEmail(al.getEmail());
+
+
+  return  result;
+
+
+
+
+
+
+
 
 
     }

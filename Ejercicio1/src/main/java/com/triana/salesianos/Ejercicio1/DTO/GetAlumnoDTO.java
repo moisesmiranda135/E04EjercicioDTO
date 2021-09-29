@@ -15,6 +15,7 @@ public class GetAlumnoDTO {
     private String nombre;
     private String apellidos;
     private String email;
+    private String telefono;
     private String curso;
     private String direccion;
 
