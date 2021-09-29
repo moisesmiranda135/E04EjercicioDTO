@@ -18,17 +18,16 @@ public class Producto {
     private  double desc;
     private double pvp;
 
-    
-    private  List<String> imagenes;
+    @Lob
+    private  String imagenes;
 
     @ManyToOne
     private Categoria categoria;
 
-    public Producto(String nombre, double desc, double pvp,List<String> imagenes) {
+    public Producto(String nombre, double desc, double pvp,String imagenes) {
         this.nombre = nombre;
         this.desc = desc;
         this.pvp = pvp;
-        this.categoria = categoria;
         this.imagenes = imagenes;
     }
 }

@@ -14,6 +14,6 @@ public class CreateProductoDto {
     private String nombre;
     private Double pvp;
     private Double desc;
-    private List<String> imagen;
+    private String imagen;
     private Long categoriaId;
 }

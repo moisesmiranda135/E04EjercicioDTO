@@ -15,6 +15,6 @@ public class GetProductoDto {
 
     private String nombre;
     private Double desc;
-    private List<String> imagenes;
+    private String imagenes;
     private String categoria;
 }

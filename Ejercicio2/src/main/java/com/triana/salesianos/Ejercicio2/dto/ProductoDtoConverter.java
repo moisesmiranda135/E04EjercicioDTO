@@ -2,7 +2,7 @@ package com.triana.salesianos.Ejercicio2.dto;
 
 import com.triana.salesianos.Ejercicio2.model.Producto;
 
-public class ProuductoDtoConverter {
+public class ProductoDtoConverter {
 
     public Producto createProductoDtoToProducto(CreateProductoDto p) {
         return new Producto(
