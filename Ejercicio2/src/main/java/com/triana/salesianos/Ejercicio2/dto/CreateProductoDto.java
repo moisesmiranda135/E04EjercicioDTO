@@ -12,8 +12,8 @@ import java.util.List;
 public class CreateProductoDto {
 
     private String nombre;
-    private String pvp;
-    private String desc;
-    private String imagen;
+    private Double pvp;
+    private Double desc;
+    private List<String> imagen;
     private Long categoriaId;
 }

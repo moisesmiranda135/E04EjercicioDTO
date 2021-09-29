@@ -14,7 +14,7 @@ import java.util.List;
 public class GetProductoDto {
 
     private String nombre;
-    private String desc;
+    private Double desc;
     private List<String> imagenes;
     private String categoria;
 }

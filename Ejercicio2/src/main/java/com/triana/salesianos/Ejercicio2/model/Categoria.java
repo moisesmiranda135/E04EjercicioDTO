@@ -1,4 +1,4 @@
-package model;
+package com.triana.salesianos.Ejercicio2.model;
 
 
 import lombok.Data;
