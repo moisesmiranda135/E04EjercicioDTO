@@ -5,7 +5,7 @@ import com.triana.salesianos.Ejercicio1.model.Alumno;
 import org.springframework.stereotype.Component;
 
 @Component
-public class AlumnnoDtoConverter {
+public class AlumnoDtoConverter {
 
     public Alumno createAlumnoDtoToAlumno(CreateAlumnoDto a){
 

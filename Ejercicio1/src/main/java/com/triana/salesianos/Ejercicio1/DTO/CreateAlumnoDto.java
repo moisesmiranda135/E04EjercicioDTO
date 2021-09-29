@@ -15,8 +15,8 @@ public class CreateAlumnoDto {
     private String apellido2;
     private String telefono;
     private String email;
-    private String direccion;
-    private String curso;
+    private Long direccionId;
+    private Long cursoId;
 
 
 
